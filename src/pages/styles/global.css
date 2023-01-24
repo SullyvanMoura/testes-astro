@@ -1,0 +1,65 @@
+html {
+  background-color: rgb(201, 128, 250);
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 80ch;
+  padding: 1rem;
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 1rem 0;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 1.5rem;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0.8px 0.8px black;
+}
+
+li {
+    font-size: 1rem;
+    color: white;
+    text-shadow: 0.8px 0.8px black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerText {
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    text-decoration-line: none;
+    font-weight: 800;
+}
+
+.post{
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-weight: 600;
+}

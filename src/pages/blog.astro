@@ -1,4 +1,5 @@
 ---
+import './styles/global.css';
 ---
 
 <html lang="pt-br">
@@ -10,10 +11,10 @@
 		<title>Sobre meu projeto</title>
 	</head>
 	<body>
-		<div>
-			<a href="/testes-astro/">Home</a>
-			<a href="/testes-astro/about/">About</a>
-			<a href="">Blog</a>
+		<div class="header">
+			<a class="headerText" href="/testes-astro/">Home</a>
+			<a class="headerText" href="/testes-astro/about/">About</a>
+			<a class="headerText" href="">Blog</a>
 		</div>
 
 		<div>
@@ -22,9 +23,9 @@
 		</div>
 		<div>
 			<ul>
-				<li><a href="/testes-astro/posts/post-1">Post 1</a></li>
-				<li><a href="/testes-astro/posts/post-2">Post 2</a></li>
-				<li><a href="/testes-astro/posts/post-3">Post 3</a></li>
+				<li><a class="post" href="/testes-astro/posts/post-1">Post 1</a></li>
+				<li><a class="post" href="/testes-astro/posts/post-2">Post 2</a></li>
+				<li><a class="post" href="/testes-astro/posts/post-3">Post 3</a></li>
 			</ul>
 		</div>
 
